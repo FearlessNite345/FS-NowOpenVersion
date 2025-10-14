@@ -1,6 +1,6 @@
 # Changelog v1.1.1
 
-- Added a fix to gracefully handle `postals.json` files that include “creative” comments since some people still don’t understand that JSON doesn’t support them.
+- Made a small tweak so `postals.json` can tolerate a few stray comments left inside without breaking anything.
 
 # Changelog v1.1.0
 
