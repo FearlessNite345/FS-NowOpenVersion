@@ -1,11 +1,15 @@
+# Changelog v1.1.1
+
+- Added a fix to gracefully handle `postals.json` files that include “creative” comments since some people still don’t understand that JSON doesn’t support them.
+
 # Changelog v1.1.0
 
-- Added support for fully optional database persistence for businesses (disabled by default).  
-- Added an option in the business directory to **close** a business without deleting it (works without a database).  
-- Replaced the old `Config.deleteBusinessOnLeave` setting with `Config.onLeaveAction`, allowing you to choose whether a business is closed or deleted when leaving.  
-- Added a new **EDIT MODE** in the `/openbusiness` UI to edit businesses you already own.  
-- Introduced a **PRESETS** feature to save businesses as reusable templates for future use (does not require a database).  
-- Tweaked various UI elements in the `/openbusiness` interface for a cleaner experience.  
+- Added support for fully optional database persistence for businesses (disabled by default).
+- Added an option in the business directory to **close** a business without deleting it (works without a database).
+- Replaced the old `Config.deleteBusinessOnLeave` setting with `Config.onLeaveAction`, allowing you to choose whether a business is closed or deleted when leaving.
+- Added a new **EDIT MODE** in the `/openbusiness` UI to edit businesses you already own.
+- Introduced a **PRESETS** feature to save businesses as reusable templates for future use (does not require a database).
+- Tweaked various UI elements in the `/openbusiness` interface for a cleaner experience.
 
 # Changelog v1.0.2
 
