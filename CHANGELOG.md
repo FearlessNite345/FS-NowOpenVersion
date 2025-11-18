@@ -1,3 +1,10 @@
+# Changelog v1.1.2
+
+- Fixed a bug where duplicate entries inside **postals.json** could cause the entire script to fail. The system now automatically **deduplicates** postals before loading them.
+  
+- Applied the same deduplication logic to **streetnames.json** to prevent similar breakage.
+
+
 # Changelog v1.1.1
 
 - Made a small tweak so `postals.json` can tolerate a few stray comments left inside without breaking anything.
